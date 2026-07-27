@@ -87,10 +87,7 @@ export async function POST(request: NextRequest) {
     if ((process.env.NODE_ENV === 'production' && !process.env.UPLOAD_STORAGE_PATH)) {
       const key = `${type}/${filename}`
       const store = getStore({ name: 'nirmala-uploads', consistency: 'strong' })
-      const blobData = buffer.buffer.slice(
-        buffer.byteOffset,
-        buffer.byteOffset + buffer.byteLength,
-      ) as ArrayBuffer
+      const blobData = Uint8Array.from(buffer).buffer
       await store.set(key, blobData, {
         metadata: {
           contentType: 'image/webp',
