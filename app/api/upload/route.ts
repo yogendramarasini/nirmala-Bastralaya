@@ -84,7 +84,7 @@ export async function POST(request: NextRequest) {
     const filename = `${randomUUID()}.webp`
     let url: string
 
-    if (process.env.NETLIFY) {
+    if ((process.env.NODE_ENV === 'production' && !process.env.UPLOAD_STORAGE_PATH)) {
       const key = `${type}/${filename}`
       const store = getStore({ name: 'nirmala-uploads', consistency: 'strong' })
       const blobData = buffer.buffer.slice(

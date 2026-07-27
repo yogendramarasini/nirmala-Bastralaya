@@ -30,7 +30,7 @@ export async function GET(
 
     let data: ArrayBuffer | Buffer
     let etag = ''
-    if (process.env.NETLIFY) {
+    if ((process.env.NODE_ENV === 'production' && !process.env.UPLOAD_STORAGE_PATH)) {
       const store = getStore({ name: 'nirmala-uploads', consistency: 'strong' })
       const entry = await store.getWithMetadata(key, { type: 'arrayBuffer' })
       if (!entry?.data) {

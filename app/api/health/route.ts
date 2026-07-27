@@ -7,14 +7,14 @@ export async function GET() {
     return NextResponse.json({
       status: 'ok',
       database: 'connected',
-      storage: process.env.NETLIFY ? 'netlify-blobs' : 'local-only',
+      storage: (process.env.NODE_ENV === 'production' && !process.env.UPLOAD_STORAGE_PATH) ? 'netlify-blobs' : 'local-only',
       timestamp: new Date().toISOString(),
     })
   } catch {
     return NextResponse.json({
       status: 'degraded',
       database: 'unavailable',
-      storage: process.env.NETLIFY ? 'netlify-blobs' : 'local-only',
+      storage: (process.env.NODE_ENV === 'production' && !process.env.UPLOAD_STORAGE_PATH) ? 'netlify-blobs' : 'local-only',
       timestamp: new Date().toISOString(),
     }, { status: 503 })
   }
