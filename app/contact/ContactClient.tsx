@@ -58,7 +58,7 @@ export default function ContactClient() {
                 { icon: MapPin, title: 'Store Address', content: 'Tamghas, Resunga Municipality\nGulmi District, Lumbini Province\nNepal' },
                 { icon: Phone, title: 'Phone', content: '079-520658', href: 'tel:079-520658' },
                 { icon: Mail, title: 'Email', content: 'nirmalavastralya@gmail.com', href: 'mailto:nirmalavastralya@gmail.com' },
-                { icon: MessageCircle, title: 'WhatsApp', content: 'Chat on WhatsApp', href: 'https://wa.me/977079520658' },
+                { icon: MessageCircle, title: 'WhatsApp', content: 'Chat on WhatsApp', href: 'https://wa.me/9779857027929' },
                 { icon: Clock, title: 'Business Hours', content: 'Sun – Fri: 9:00 AM – 7:00 PM\nSaturday: 10:00 AM – 5:00 PM' },
               ].map((item) => (
                 <div key={item.title} className="flex items-start gap-4">

@@ -27,7 +27,7 @@ async function main() {
   const defaultSettings = [
     { key: 'store_name', value: 'Nirmala Bastralaya' },
     { key: 'store_phone', value: '079-520658' },
-    { key: 'store_whatsapp', value: '977079520658' },
+    { key: 'store_whatsapp', value: '9779857027929' },
     { key: 'store_email', value: 'nirmalavastralya@gmail.com' },
     { key: 'store_address', value: 'Tamghas, Resunga Municipality, Gulmi, Nepal' },
     { key: 'social_facebook', value: '' },

@@ -22,7 +22,7 @@ export default function Footer() {
               From a small shop to a trusted clothing destination serving more than 20,000 customers.
             </p>
             <a
-              href="https://wa.me/977079520658"
+              href="https://wa.me/9779857027929"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white text-sm px-4 py-2.5 rounded transition-colors"
