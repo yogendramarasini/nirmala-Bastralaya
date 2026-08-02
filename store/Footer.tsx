@@ -13,7 +13,7 @@ export default function Footer() {
             <div className="mb-5 bg-[#fff8ec] inline-block px-3 py-1.5">
               <Image
                 src="/images/editorial/nirmala-logo.webp"
-                alt="Nirmala Bastralaya"
+                alt="Nirmala Vastralaya"
                 width={210}
                 height={105}
               />
@@ -118,7 +118,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="container-custom py-5 flex flex-col md:flex-row justify-between items-center gap-3">
           <p className="text-gray-500 text-xs">
-            © {new Date().getFullYear()} Nirmala Bastralaya. All rights reserved. Established 2002.
+            © {new Date().getFullYear()} Nirmala Vastralaya. All rights reserved. Established 2002.
           </p>
           <div className="flex items-center gap-4">
             <Link href="/privacy" className="text-gray-500 text-xs hover:text-gray-300 transition-colors">Privacy Policy</Link>

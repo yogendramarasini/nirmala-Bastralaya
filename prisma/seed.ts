@@ -25,7 +25,7 @@ async function main() {
   console.log('✅ Admin user:', admin.email)
 
   const defaultSettings = [
-    { key: 'store_name', value: 'Nirmala Bastralaya' },
+    { key: 'store_name', value: 'Nirmala Vastralaya' },
     { key: 'store_phone', value: '079-520658' },
     { key: 'store_whatsapp', value: '9779857027929' },
     { key: 'store_email', value: 'nirmalavastralya@gmail.com' },

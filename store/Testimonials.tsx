@@ -8,7 +8,7 @@ const testimonials = [
     name: 'Sita Sharma',
     location: 'Tamghas, Gulmi',
     rating: 5,
-    text: 'I have been buying sarees from Nirmala Bastralaya for over 10 years. The quality is always excellent and the prices are fair. Highly recommended!',
+    text: 'I have been buying sarees from Nirmala Vastralaya for over 10 years. The quality is always excellent and the prices are fair. Highly recommended!',
   },
   {
     name: 'Ram Prasad Poudel',

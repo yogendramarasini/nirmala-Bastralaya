@@ -100,7 +100,7 @@ export default function CheckoutClient() {
             <CheckCircle2 size={40} className="text-green-500" />
           </div>
           <h2 className="font-display text-3xl font-bold text-primary mb-3">Order Placed!</h2>
-          <p className="text-gray-500 mb-2">Thank you for shopping at Nirmala Bastralaya.</p>
+          <p className="text-gray-500 mb-2">Thank you for shopping at Nirmala Vastralaya.</p>
           <div className="bg-surface rounded-lg px-8 py-5 mb-6 inline-block">
             <p className="text-xs text-gray-400 mb-1">Your Order Number</p>
             <p className="text-xl font-bold text-gold tracking-wide">{orderSuccess.orderNumber}</p>
@@ -225,7 +225,7 @@ export default function CheckoutClient() {
                             <div className="relative mx-auto aspect-square w-full max-w-[264px] overflow-hidden rounded-xl border-[6px] border-white bg-white shadow-[0_10px_30px_rgba(61,38,18,0.14)] ring-1 ring-[#d3ad68]">
                               <Image
                                 src={getImageUrl(qrImages[selectedPayment])}
-                                alt="Nirmala Bastralaya Fonepay QR code"
+                                alt="Nirmala Vastralaya Fonepay QR code"
                                 fill
                                 priority
                                 sizes="264px"
@@ -247,7 +247,7 @@ export default function CheckoutClient() {
                           </div>
                         )}
                         <div className="mt-5 text-center">
-                          <p className="font-serif text-lg text-[#5b0d1b]">Nirmala Bastralaya</p>
+                          <p className="font-serif text-lg text-[#5b0d1b]">Nirmala Vastralaya</p>
                           <p className="mt-1 text-[11px] uppercase tracking-[0.16em] text-[#8b6b3f]">Global IME Bank · Tamghas Branch</p>
                         </div>
                         <div className="mt-4 rounded-xl border border-[#ead9b9] bg-white px-4 py-3 text-center">
@@ -255,7 +255,7 @@ export default function CheckoutClient() {
                           <p className="mt-1 text-xl font-bold text-[#5b0d1b]">{formatPrice(getTotal())}</p>
                         </div>
                         <p className="mt-3 text-center text-xs leading-5 text-[#735c43]">
-                          Confirm that your banking app shows <strong>Nirmala Bastralaya</strong> before paying. Then upload the successful payment screenshot below.
+                          Confirm that your banking app shows <strong>Nirmala Vastralaya</strong> before paying. Then upload the successful payment screenshot below.
                         </p>
 
                         <div className="mt-5">

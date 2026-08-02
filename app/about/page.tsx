@@ -4,8 +4,8 @@ import StoreShell from '@/components/store/StoreShell'
 import { Heart, ShieldCheck, Sparkles } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Our Story | Nirmala Bastralaya',
-  description: 'The story of proprietor Gyanraj Marasini and how Nirmala Bastralaya grew from a Rs. 50,000 investment into a trusted store serving more than 20,000 customers.',
+  title: 'Our Story | Nirmala Vastralaya',
+  description: 'The story of proprietor Gyanraj Marasini and how Nirmala Vastralaya grew from a Rs. 50,000 investment into a trusted store serving more than 20,000 customers.',
 }
 
 const values = [
@@ -24,7 +24,7 @@ export default function AboutPage() {
             <div className="mx-auto mb-8 inline-block bg-[#fff8ec] px-5 py-2">
               <Image
                 src="/images/editorial/nirmala-logo.webp"
-                alt="Nirmala Bastralaya"
+                alt="Nirmala Vastralaya"
                 width={310}
                 height={155}
                 priority
@@ -50,7 +50,7 @@ export default function AboutPage() {
                 <p>Gyanraj Marasini did not begin with a large showroom or a famous name. He began with courage. As a young man, he made the difficult decision to leave his studies and build a livelihood through business.</p>
                 <p>With an initial investment of Rs. 50,000, he opened a small clothing shop in Tamghas. The shelves were modest, but his promise was strong: offer useful, good-quality clothing at fair prices and treat every customer with respect.</p>
                 <p>Gyanraj learned directly from the people who entered his shop. He remembered their preferences, helped families choose for important occasions, and stood behind what he sold. Customers returned, brought relatives, and shared the store’s name with friends.</p>
-                <p>That trust became Nirmala Bastralaya’s real foundation. Over time, the small shop grew into a respected destination that has served more than 20,000 customers. Many continue to return—not only for the clothing, but for the honest, personal service they know they will receive.</p>
+                <p>That trust became Nirmala Vastralaya’s real foundation. Over time, the small shop grew into a respected destination that has served more than 20,000 customers. Many continue to return—not only for the clothing, but for the honest, personal service they know they will receive.</p>
                 <p className="font-display text-2xl text-[#64101d] border-l-2 border-[#b88a3b] pl-5">“Growth came one customer, one promise, and one relationship at a time.”</p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function AboutPage() {
         <section className="container-custom py-20 md:py-28">
           <div className="grid lg:grid-cols-2 bg-[#64101d] overflow-hidden">
             <div className="relative min-h-[520px] lg:min-h-[700px]">
-              <Image src="/images/editorial/nirmala-model-pink.webp" alt="Model presenting a pink saree from Nirmala Bastralaya" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
+              <Image src="/images/editorial/nirmala-model-pink.webp" alt="Model presenting a pink saree from Nirmala Vastralaya" fill className="object-cover" sizes="(max-width: 1024px) 100vw, 50vw" />
             </div>
             <div className="p-10 md:p-16 flex items-center text-[#fff8ec]">
               <div>

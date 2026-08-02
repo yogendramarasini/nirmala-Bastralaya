@@ -121,7 +121,7 @@ export default function ContactPage() {
             {/* Map */}
             <div className="rounded-lg overflow-hidden border border-gray-100">
               <iframe
-                title="Nirmala Bastralaya Location"
+                title="Nirmala Vastralaya Location"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.0!2d83.2833!3d28.1169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDA3JzAxLjAiTiA4M8KwMTcnMDAuMCJF!5e0!3m2!1sen!2snp!4v1234567890"
                 width="100%"
                 height="260"

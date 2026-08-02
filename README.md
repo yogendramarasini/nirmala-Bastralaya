@@ -1,6 +1,6 @@
-# Nirmala Bastralaya
+# Nirmala Vastralaya
 
-Production clothing storefront and administrator system for Nirmala Bastralaya,
+Production clothing storefront and administrator system for Nirmala Vastralaya,
 Tamghas, Gulmi, Nepal. Established in 2002.
 
 ## Included

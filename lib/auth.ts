@@ -52,7 +52,7 @@ export const authOptions: NextAuthOptions = {
         if (user && isValid && totpSecret) {
           try {
             const totp = new OTPAuth.TOTP({
-              issuer: 'Nirmala Bastralaya',
+              issuer: 'Nirmala Vastralaya',
               label: user.email,
               algorithm: 'SHA1',
               digits: 6,

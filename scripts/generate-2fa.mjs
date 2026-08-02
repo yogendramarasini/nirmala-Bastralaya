@@ -7,7 +7,7 @@ if (!email || !email.includes('@')) {
 }
 
 const totp = new OTPAuth.TOTP({
-  issuer: 'Nirmala Bastralaya',
+  issuer: 'Nirmala Vastralaya',
   label: email,
   algorithm: 'SHA1',
   digits: 6,

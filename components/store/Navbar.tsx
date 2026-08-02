@@ -45,10 +45,10 @@ export default function Navbar() {
 
       <header className="sticky top-0 z-50 bg-[#fff8ec]/95 backdrop-blur-md border-b border-[#d8bd86]">
         <div className="container-custom flex items-center justify-between h-20 md:h-24">
-          <Link href="/" className="relative w-48 md:w-64 h-16 md:h-20 shrink-0" aria-label="Nirmala Bastralaya home">
+          <Link href="/" className="relative w-48 md:w-64 h-16 md:h-20 shrink-0" aria-label="Nirmala Vastralaya home">
             <Image
               src="/images/editorial/nirmala-logo.webp"
-              alt="Nirmala Bastralaya"
+              alt="Nirmala Vastralaya"
               fill
               sizes="(max-width: 767px) 192px, 256px"
               className="object-contain object-left"

@@ -3,7 +3,7 @@ import { CheckCircle2, Target, Eye, Heart } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'About Us',
-  description: 'Learn about Nirmala Bastralaya — trusted premium clothing & textile store in Tamghas, Gulmi, Nepal since 2002.',
+  description: 'Learn about Nirmala Vastralaya — trusted premium clothing & textile store in Tamghas, Gulmi, Nepal since 2002.',
 }
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
         <div className="container-custom text-center">
           <p className="section-label text-gold mb-3">Our Story</p>
           <h1 className="font-display text-4xl md:text-5xl font-bold text-white mb-4">
-            About Nirmala Bastralaya
+            About Nirmala Vastralaya
           </h1>
           <p className="text-gray-400 text-lg max-w-xl mx-auto">
             Two decades of trusted service, quality clothing, and community values.
@@ -31,7 +31,7 @@ export default function AboutPage() {
           </div>
           <div className="prose prose-gray max-w-none text-gray-600 text-base leading-relaxed space-y-5">
             <p>
-              Nirmala Bastralaya was founded in 2002 in the heart of Tamghas, the district headquarters of Gulmi, Nepal. 
+              Nirmala Vastralaya was founded in 2002 in the heart of Tamghas, the district headquarters of Gulmi, Nepal. 
               What began as a small, humble textile shop has grown over two decades into one of the most trusted and 
               beloved clothing destinations in the region.
             </p>
@@ -46,7 +46,7 @@ export default function AboutPage() {
               shoes, bags, and home textiles like quilts and dasana (mattresses).
             </p>
             <p>
-              Today, thousands of families across Gulmi and beyond trust Nirmala Bastralaya as their go-to 
+              Today, thousands of families across Gulmi and beyond trust Nirmala Vastralaya as their go-to 
               clothing store. Our customers return not just for our products, but for the personal service, 
               genuine care, and community connection that we have built over two generations.
             </p>

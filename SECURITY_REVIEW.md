@@ -1,4 +1,4 @@
-# Nirmala Bastralaya Security Review
+# Nirmala Vastralaya Security Review
 
 Review date: 2026-07-26  
 Scope: the complete source tree in this release, including the Next.js
@@ -184,7 +184,7 @@ SQLite preview database:
 - executable text disguised as `image/jpeg`: `400`;
 - valid payment image upload: `200`, converted to private WebP;
 - bundled Fonepay QR: decoded successfully at 264 px and 200 px with the
-  merchant name `NIRMALA BASTRALAYA`;
+  merchant name `Nirmala Vastralaya`;
 - guest Cash on Delivery order: `201`;
 - charged item price matched the database catalog price (NPR 4,200), not client
   input;

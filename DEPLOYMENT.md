@@ -1,4 +1,4 @@
-# Nirmala Bastralaya — Free Netlify Deployment
+# Nirmala Vastralaya — Free Netlify Deployment
 
 This release is prepared for `nirmalavastralaya.com.np`. It includes the
 storefront, protected administrator dashboard, PostgreSQL database, orders,
@@ -50,7 +50,7 @@ In **Project configuration → Environment variables**, add:
 DATABASE_URL=THE_NEON_POOLED_CONNECTION_STRING
 NEXTAUTH_URL=https://nirmalavastralaya.com.np
 NEXT_PUBLIC_APP_URL=https://nirmalavastralaya.com.np
-NEXT_PUBLIC_SITE_NAME=Nirmala Bastralaya
+NEXT_PUBLIC_SITE_NAME=Nirmala Vastralaya
 
 NEXTAUTH_SECRET=RANDOM_SECRET_OF_AT_LEAST_32_CHARACTERS
 ADMIN_EMAIL=THE_PRIVATE_ADMIN_EMAIL
@@ -61,7 +61,7 @@ SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=nirmalavastralya@gmail.com
 SMTP_PASS=THE_GMAIL_APP_PASSWORD
-SMTP_FROM=Nirmala Bastralaya <nirmalavastralya@gmail.com>
+SMTP_FROM=Nirmala Vastralaya <nirmalavastralya@gmail.com>
 ```
 
 Never commit real passwords. Use a Gmail App Password, not the normal Gmail

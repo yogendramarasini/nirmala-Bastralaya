@@ -72,7 +72,7 @@ export default function AdminOrderDetail() {
 
       {/* Printable Invoice Header */}
       <div className="hidden print:block text-center mb-6">
-        <div className="text-2xl font-bold">Nirmala Bastralaya</div>
+        <div className="text-2xl font-bold">Nirmala Vastralaya</div>
         <div className="text-sm text-gray-600">Tamghas, Gulmi, Nepal · 079-520658</div>
         <div className="text-lg font-semibold mt-2">INVOICE — {order.orderNumber}</div>
       </div>

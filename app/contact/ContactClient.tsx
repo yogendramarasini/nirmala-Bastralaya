@@ -83,7 +83,7 @@ export default function ContactClient() {
 
             <div className="rounded-lg overflow-hidden border border-gray-100">
               <iframe
-                title="Nirmala Bastralaya Location — Tamghas, Gulmi"
+                title="Nirmala Vastralaya Location — Tamghas, Gulmi"
                 src="https://maps.google.com/maps?q=Tamghas,Gulmi,Nepal&output=embed"
                 width="100%" height="260"
                 style={{ border: 0 }} allowFullScreen loading="lazy"

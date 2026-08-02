@@ -67,7 +67,7 @@ export async function sendOrderConfirmation(order: {
         
         <!-- Header -->
         <div style="background: #111111; padding: 40px; text-align: center;">
-          <h1 style="color: #D4AF37; margin: 0; font-size: 28px; letter-spacing: 2px;">NIRMALA BASTRALAYA</h1>
+          <h1 style="color: #D4AF37; margin: 0; font-size: 28px; letter-spacing: 2px;">Nirmala Vastralaya</h1>
           <p style="color: #ffffff; margin: 8px 0 0; opacity: 0.7; font-size: 14px;">Premium Clothing & Textile Store</p>
         </div>
 
@@ -110,7 +110,7 @@ export async function sendOrderConfirmation(order: {
 
         <!-- Footer -->
         <div style="background: #f5f5f5; padding: 24px 40px; text-align: center;">
-          <p style="color: #999; font-size: 12px; margin: 0;">Nirmala Bastralaya | Tamghas, Resunga Municipality, Gulmi, Nepal</p>
+          <p style="color: #999; font-size: 12px; margin: 0;">Nirmala Vastralaya | Tamghas, Resunga Municipality, Gulmi, Nepal</p>
           <p style="color: #999; font-size: 12px; margin: 4px 0 0;">Established 2002 · Trusted for over two decades</p>
         </div>
       </div>
@@ -121,7 +121,7 @@ export async function sendOrderConfirmation(order: {
   await transporter.sendMail({
     from: process.env.SMTP_FROM,
     to: order.customerEmail,
-    subject: `Order Confirmed — ${order.orderNumber} | Nirmala Bastralaya`,
+    subject: `Order Confirmed — ${order.orderNumber} | Nirmala Vastralaya`,
     html,
   })
 }

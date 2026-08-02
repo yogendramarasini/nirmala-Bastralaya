@@ -1,4 +1,4 @@
-# Nirmala Bastralaya — Admin Guide
+# Nirmala Vastralaya — Admin Guide
 
 ## Accessing the Admin Panel
 
@@ -139,9 +139,9 @@ Click the status badge (Active/Inactive) to toggle it on or off instantly.
 
 1. Go to **Admin → Settings**
 2. Scroll to **Payment QR Codes**
-3. The verified Nirmala Bastralaya **Fonepay** QR is already installed
+3. The verified Nirmala Vastralaya **Fonepay** QR is already installed
 4. To replace it, upload a clear PNG, JPEG or WebP image; the replacement saves automatically
-5. Place a small test order and confirm that the banking app displays **Nirmala Bastralaya**
+5. Place a small test order and confirm that the banking app displays **Nirmala Vastralaya**
 
 Customers can select Cash on Delivery or Fonepay. Fonepay is an offline manual
 payment: the customer scans the QR, confirms the merchant name, pays through

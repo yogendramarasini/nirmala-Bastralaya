@@ -6,17 +6,17 @@ import Providers from '@/components/Providers'
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'),
   title: {
-    default: 'Nirmala Bastralaya — Premium Clothing & Textile Store, Gulmi Nepal',
-    template: '%s | Nirmala Bastralaya',
+    default: 'Nirmala Vastralaya — Premium Clothing & Textile Store, Gulmi Nepal',
+    template: '%s | Nirmala Vastralaya',
   },
   description:
-    'Nirmala Bastralaya — Premium clothing, sarees, traditional attire, shoes, bags and more. Trusted since 2002, located in Tamghas, Gulmi, Nepal.',
-  keywords: ['Nirmala Bastralaya', 'clothing store Nepal', 'saree Gulmi', 'traditional clothing Nepal', 'premium clothes Tamghas', 'marriage dress Nepal'],
+    'Nirmala Vastralaya — Premium clothing, sarees, traditional attire, shoes, bags and more. Trusted since 2002, located in Tamghas, Gulmi, Nepal.',
+  keywords: ['Nirmala Vastralaya', 'clothing store Nepal', 'saree Gulmi', 'traditional clothing Nepal', 'premium clothes Tamghas', 'marriage dress Nepal'],
   openGraph: {
     type: 'website',
     locale: 'en_NP',
-    siteName: 'Nirmala Bastralaya',
-    title: 'Nirmala Bastralaya — Premium Clothing & Textile',
+    siteName: 'Nirmala Vastralaya',
+    title: 'Nirmala Vastralaya — Premium Clothing & Textile',
     description: 'Trusted clothing & textile store in Gulmi, Nepal since 2002.',
   },
   robots: { index: true, follow: true },

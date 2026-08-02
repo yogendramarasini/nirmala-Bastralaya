@@ -9,7 +9,7 @@ import AboutPreview from '@/components/store/AboutPreview'
 import NewsletterSection from '@/components/store/NewsletterSection'
 
 export const metadata: Metadata = {
-  title: 'Nirmala Bastralaya — Premium Clothing & Textile Store, Gulmi Nepal',
+  title: 'Nirmala Vastralaya — Premium Clothing & Textile Store, Gulmi Nepal',
 }
 
 export default function HomePage() {

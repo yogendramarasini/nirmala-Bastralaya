@@ -29,7 +29,7 @@ writeFileSync(localSchemaPath, localSchema)
 const localEnvironment = `DATABASE_URL="${localDatabaseUrl}"
 NEXTAUTH_URL="http://localhost:3000"
 NEXT_PUBLIC_APP_URL="http://localhost:3000"
-NEXT_PUBLIC_SITE_NAME="Nirmala Bastralaya"
+NEXT_PUBLIC_SITE_NAME="Nirmala Vastralaya"
 NEXTAUTH_SECRET="${localAuthSecret}"
 ADMIN_EMAIL="${localAdminEmail}"
 ADMIN_PASSWORD="${localAdminPassword}"

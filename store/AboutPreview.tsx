@@ -26,7 +26,7 @@ export default function AboutPreview() {
             <div className="relative aspect-[2/3] overflow-hidden bg-[#efe0c7]">
               <Image
                 src="/images/editorial/gyanraj-founder.webp"
-                alt="Gyanraj Marasini, proprietor of Nirmala Bastralaya"
+                alt="Gyanraj Marasini, proprietor of Nirmala Vastralaya"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 90vw, 38vw"
@@ -53,7 +53,7 @@ export default function AboutPreview() {
                 Gyanraj Marasini began with a simple belief: honest service and good clothing could build a better future. He made the difficult decision to leave his studies, invest Rs. 50,000, and open a small shop in Tamghas.
               </p>
               <p>
-                He welcomed every visitor personally, listened to what families needed, and treated each sale as the beginning of a relationship. That care turned first-time shoppers into repeat customers—and their recommendations helped Nirmala Bastralaya grow.
+                He welcomed every visitor personally, listened to what families needed, and treated each sale as the beginning of a relationship. That care turned first-time shoppers into repeat customers—and their recommendations helped Nirmala Vastralaya grow.
               </p>
               <p>
                 Today, the business has served more than 20,000 customers. Its success still rests on the same values Gyanraj started with: trust, fair value, quality, and a warm welcome for everyone.
@@ -79,7 +79,7 @@ export default function AboutPreview() {
           <div className="relative min-h-[480px] lg:min-h-[620px]">
             <Image
               src="/images/editorial/nirmala-model-pink.webp"
-              alt="Nirmala Bastralaya saree model in a pink saree"
+              alt="Nirmala Vastralaya saree model in a pink saree"
               fill
               className="object-cover object-center"
               sizes="(max-width: 1024px) 100vw, 50vw"
